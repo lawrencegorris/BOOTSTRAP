@@ -12,4 +12,4 @@ $( ".card" ).hover(
     }, function() {
         $(this).removeClass('btn-primary rounded-pill');
       }
-  ); 
+  );
