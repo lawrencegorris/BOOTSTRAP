@@ -8,8 +8,8 @@ $( ".card" ).hover(
 
   $( ".btn" ).hover(
     function() {
-      $(this).addClass('rounded-pill btn-primary').css('cursor', 'pointer'); 
+      $(this).addClass('btn-primary').css('cursor', 'pointer');
     }, function() {
-        $(this).removeClass('btn-primary rounded-pill');
+        $(this).removeClass('btn-primary');
       }
   );
